@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features>
+ <feature  name='tan-generics-tests'  version='1.0.0-SNAPSHOT'   > 
+    <bundle>mvn:org.apache.commons/commons-lang3/3.5</bundle>
+    <bundle>mvn:com.indsp/tan-platform-persistence-properties-impl/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:com.indsp/tan-platform-persistence-properties/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:com.indsp/tan-platform-discovery-identity/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:com.indsp/tan-platform-networking-federation/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:com.indsp/tan-platform-persistence-cell/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:com.indsp/tan-platform-persistence-tinkerpop-blueprints/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:com.indsp/tan-platform-utils-monitorable/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:com.indsp/tan-platform-persistence-agentmanager/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:com.google.guava/guava/20.0</bundle>
+    <bundle>mvn:com.indsp/tan-platform-persistence-cell-impl/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:org.scala-lang/scala-library/2.10.3</bundle>
+    <bundle>mvn:log4j/log4j/1.2.16</bundle>
+    <bundle>mvn:io.netty/netty/3.6.3.Final</bundle>
+    <bundle>mvn:com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.3.1</bundle>
+    <bundle>mvn:commons-lang/commons-lang/2.4</bundle>
+    <bundle>mvn:org.codehaus.jettison/jettison/1.3.3</bundle>
+    <bundle>mvn:com.indsp/tan-platform-discovery-identity-impl/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:com.indsp/tan-platform-networking-profile/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:com.indsp/tan-platform-networking-parameter-impl/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:com.indsp/tan-platform-networking-parameter/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:org.ow2.asm/asm/5.0.1</bundle>
+    <bundle>mvn:org.ow2.asm/asm-tree/5.0.1</bundle>
+    <bundle>mvn:org.ow2.asm/asm-commons/5.0.1</bundle>
+    <bundle>mvn:com.indsp/tan-platform-utils-common/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:com.indsp/tan-platform-networking-peer-impl/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:com.indsp/tan-platform-networking-peer/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:com.indsp/tan-platform-utils-context-impl/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:com.indsp/tan-platform-utils-context/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:com.esotericsoftware.kryo/kryo/2.24.0</bundle>
+    <bundle>mvn:com.indsp/tan-platform-networking-network-domain/1.0.0-SNAPSHOT</bundle>
+    <bundle>mvn:org.slf4j/jul-to-slf4j/1.7.23</bundle>
+    <bundle>mvn:org.objenesis/objenesis/2.1</bundle>
+    <bundle>mvn:com.indsp/tan-generics-tests/1.0.0-SNAPSHOT</bundle>
+ </feature>
+</features>

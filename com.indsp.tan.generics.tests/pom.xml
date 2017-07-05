@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<url>http://www.apache.org/</url>
+
+	<name>indsp-tan-generics-tests</name>
+	<description>
+        Generics Tests
+	</description>
+
+	<artifactId>tan-generics-tests</artifactId>
+
+	<packaging>jar</packaging>
+
+	<parent>
+		<groupId>com.indsp</groupId>
+		<artifactId>tan-generics-parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../../com.indsp.maven/com.indsp.software.tan.generics.parent/pom.xml</relativePath>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>osgi.core</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.indsp</groupId>
+			<artifactId>tan-platform-networking-parameter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.indsp</groupId>
+			<artifactId>
+				tan-platform-networking-parameter-impl
+			</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.indsp</groupId>
+			<artifactId>tan-platform-networking-profile</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.indsp</groupId>
+			<artifactId>tan-platform-networking-federation</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>
+
+
+
