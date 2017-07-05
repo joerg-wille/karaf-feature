@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<url>http://www.apache.org/</url>
+
+	<name>salzbrenner-tan-polaris-generics-test-feature</name>
+	<description>
+            Create karaf feature.xml for TAN generics-test
+        </description>
+	<artifactId>tan-polaris-generics-test-feature</artifactId>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>com.salzbrenner</groupId>
+		<artifactId>tan-polaris-parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../com.indsp.maven/com.salzbrenner.software.tan.polaris.parent/pom.xml</relativePath>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.indsp</groupId>
+			<artifactId>tan-generics-tests</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.karaf.tooling</groupId>
+				<artifactId>features-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<configuration>
+							<!-- bundles nor working yet -->
+							<!-- bundles>src/main/resources/bundles.properties</bundles-->
+							<!--kernelVersion>2.4.4</kernelVersion -->
+							<outputFile>target/generics-test-feature.xml</outputFile>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
